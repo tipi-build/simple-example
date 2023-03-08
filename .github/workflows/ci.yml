@@ -20,4 +20,5 @@ jobs:
         run: |
           export HOME=/root
           mkdir -p ~/.tipi
+          tipi connect
           tipi . --target linux --dont-upgrade --verbose --test all 
