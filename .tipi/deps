@@ -1,4 +1,4 @@
 {
-	"nlohmann/json" : { "@" : "v3.9.1" }
-  , "boostorg/predef" : { "@" : "boost-1.79.0" }
+	"nlohmann/json" : { "@" : "v3.11.2",               "x" : [ "benchmarks", "/tests", "/docs", "/tools" ] }
+  , "boostorg/predef" : { "@" : "boost-1.80.0",      "x" : [ "tools/", "test/" ] }
 }
